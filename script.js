@@ -2,7 +2,7 @@
 
 function getComputerChoice () {
     let randomNum = Math.floor(Math.random() * 3)
-   // console.log(randomNum)
+//    console.log(randomNum)
     if (randomNum === 0) {
         return 'rock'}
     else if (randomNum === 1) {
@@ -82,5 +82,5 @@ function playRound (humanChoice, computerChoice) {
     }
 }
 
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
+const humanChoice = getHumanChoice();
+const computerChoice = getComputerChoice();
